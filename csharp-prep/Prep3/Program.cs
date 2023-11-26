@@ -21,12 +21,12 @@ class Program
                 Console.WriteLine("You guessed it!");
             }
 
-        else if (guess > magicNumber)
+            else if (guess > magicNumber)
             {
                 Console.WriteLine("Lower");
             }
 
-        else 
+            else 
             {
                 Console.WriteLine("Higher");
             }
